@@ -17,8 +17,10 @@ public class Executor {
     public static void main(String[] args) {
         Estudiante estudiante = new Estudiante("Sebastian", 7, 8, 9);
         estudiante.calcularPromedio();
-        
-        System.out.println(estudiante.toString());
+        Estudiante estudiante2 = new Estudiante("Sebastian", 7, 8, 9);
+        estudiante2.calcularPromedio();
+        System.out.println(estudiante.toString() + "\n" + estudiante.toString());
     }
     
 }
+
